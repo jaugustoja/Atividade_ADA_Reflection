@@ -1,0 +1,24 @@
+José Augusto Jimenes de Araújo
+
+
+Enunciado
+Crie uma aplicação Console que contenha uma cópia da classe abaixo.
+
+    public class Student
+    {
+        public string Name { get; set; }
+        public string University { get; set; }
+        public int RollNumber { get; set; }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"{Name} - {University} - {RollNumber}");
+        }
+    }
+    
+Em seguida, na classe Program, crie um método chamado DisplayPublicProperties que, usando Reflection, exiba todas as Propriedades Públicas da classe Student. No método Main da classe Program, coloque uma chamada para o método DisplayPublicProperties.
+Agora, adicione na classe Program um outro método chamado CreateInstance que
+Use Reflection para criar uma instância (objeto) da classe Student e, em seguida;
+Use Reflection para preencher as propriedades públicas do objeto. Não é necessário se preocupar com a adição de novas propriedades, isto é, sempre serão preenchidos apenas o Name, University e RollNumber.
+Use Reflection para chamar o método DisplayInfo do objeto criado no item 2.1.
+Ao final do exercício, coloque o seu cródigo em um repositório público no GitHub e submeta o link para avaliação.
