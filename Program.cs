@@ -1,6 +1,6 @@
-﻿using Exercicio_4.Models;
-using System;
+﻿using System;
 using System.Reflection;
+using Exercicio_4.Models;
 
 class Program
 {
@@ -62,15 +62,3 @@ class Program
 }
 
 
-//Classe student com suas propriedades e o metodo Displayinfo();
-public class Student
-{
-    public string Name { get; set; }
-    public string University { get; set; }
-    public int RollNumber { get; set; }
-
-    public void DisplayInfo()
-    {
-        Console.WriteLine($"{Name} - {University} - {RollNumber}");
-    }
-}
